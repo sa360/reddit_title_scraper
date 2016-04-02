@@ -48,8 +48,8 @@ app.get('/', function(req, res) {
 });
 
 
-app.listen(8080,function(){
-  console.log('Server Started on http://localhost:8080');
+app.listen(52.18.173.204,function(){
+  console.log('Server Started on http://52.18.173.204');
   console.log('Press CTRL + C to stop server');
   });
 
