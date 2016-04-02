@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<title>Reddit Title Webscraper</title>
+</head>
+<body>
+	<div class="description">
+	<h1>Latest Post Titles from Reddit.com</h1>
+	<h3>This webscraper uses NodeJS and modules Express, Cheerio, Request, and EJS to extract the most recent post titles from Reddit.com, then injects them into HTML to display them as text in the browser.</h3>
+	<h4>See original site here:  <a href="https://www.reddit.com">Reddit.com</a></h4>
+	</div>
+
+	<div>
+	<ul>
+	<% itemArray.forEach(function(item) { %>
+        <li><%= item %></li>
+    <% }); %>
+    </ul>
+    </div>
+</body>
+</html>

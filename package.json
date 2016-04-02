@@ -1,0 +1,25 @@
+{
+  "name": "reddit_scraper",
+  "version": "1.0.0",
+  "description": "scrapes titles of recent posts to reddit.com",
+  "main": "index.ejs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa360/reddit_title_scraper.git"
+  },
+  "author": "SuzanneAdams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sa360/reddit_title_scraper/issues"
+  },
+  "homepage": "https://github.com/sa360/reddit_title_scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "request": "^2.69.0"
+  }
+}
