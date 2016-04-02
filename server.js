@@ -43,7 +43,7 @@ app.get('/', function(req, res) {
 
 
 app.listen(env.port,function(){
-  console.log('Listening on '+env.host+':'+env.port);
+  console.log('Listening on '+env.host+':'+env.port');
   console.log('Stop Server With CTRL + C');
 });
 
