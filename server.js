@@ -6,7 +6,6 @@ var url = "https://www.reddit.com/";
 var express = require("express");
 var app = express();
 app.set('view engine', 'ejs');
-<<<<<<< HEAD
 app.use(express.static(__dirname + '/public'));
 
 
@@ -16,8 +15,6 @@ try{
 catch(err){
   var env = require('./config/env_prod');
 }
-=======
->>>>>>> 39f6c2bc5552bbb45141e80f71d970f963602254
 
 
 
